@@ -2,6 +2,12 @@
 using namespace std;
 
 int main(){
-    cout<<"hello word";
+    int a,b;
+    cout<<"enter a:";
+    cin>>a;
+    cout<<"enter b:";
+    cin>>b;
+    int c=a+b;
+    cout<<c;
     return 0;
 }
